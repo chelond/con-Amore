@@ -1,3 +1,30 @@
 *{
-  background-color: white
+  background-color: white;
+  margin: 0;
+  
+}
+
+.conteiner{
+  position: relative;
+  display: flex;
+  display: inline-block;
+}
+
+.position_tovar{
+  position: relative;
+  margin-right: 5px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.title{
+  display: flex;
+  
+}
+.img{
+  border-radius: 100%;
+}
+
+.btn{
+  
 }
