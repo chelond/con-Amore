@@ -6,6 +6,12 @@ body {
 	background: var(--tg-theme-bg-color);
 }
 
+
+form{
+  text-align: center;
+  display: none;
+  
+}
 .container {
 	max-width: 390px;
 }
@@ -21,11 +27,19 @@ body {
   border-radius: 5px;
 }
 
+.buton{
+  display: inline;
+  
+}
+.button{
+  text-align: center;
+  left: 50px;
+}
+
 .item {
 	text-align: center;
   border: solid 1px black;
   border-radius: 10%;
-  
 }
 
 .btn {
@@ -38,8 +52,10 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
-
 	transition: background .2s linear;
+}
+span{
+  display: inline-block;
 }
 
 .btn:hover {
