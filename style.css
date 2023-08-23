@@ -6,29 +6,31 @@
 }
 
 .conteiner{
-  position: relative;
   display: flex;
-  display: inline-block;
+  width: 420px;
+  
+  
+ 
 }
 
 .position_tovar{
-  position: relative;
-  margin-right: 5px;
-  margin-top: 15px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin: auto;
 }
 
-.title{
-  display: flex;
-  
-}
+
 .img{
   border-radius: 100%;
+  width: 50px;
+  margin: auto;
 }
 
-.btn{
 
-}
-span.title{
-  width: 100px;
+div.title{
+  width: 75px;
+  top: 50%;
+  text-align: center;
+  margin: auto;
 }
