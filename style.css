@@ -17,15 +17,20 @@ body {
 }
 
 .img {
-	width: 150px;
+	width: 130px;
+  border-radius: 5px;
 }
 
 .item {
 	text-align: center;
+  border: solid 1px black;
+  border-radius: 10%;
+  
 }
 
 .btn {
 	display: inline-block;
+  width: 130px;
 	padding: 10px 20px;
 	border: none;
 	background: rgb(248, 168, 24);
