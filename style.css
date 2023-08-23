@@ -8,13 +8,15 @@
 header{
   display: flex;
   height: 20px;
-  width: 420px;
+  width: 400px;
 }
 
-
-.conteiner{
+.main{
+  width: 400px;
+}
+.conteiner№1{
   display: flex;
-  width: 420px;
+  width: 400px;
   background-color: #ff86e1;
 }
 
@@ -50,7 +52,7 @@ div.title{
   text-align: center;
   background-color: #ff86e1;
   width: 100px;
-  color: #ff000079;
+  color: #ff0000ba;
   font-family: 'Satisfy', cursive;
 }
 
@@ -64,21 +66,29 @@ header.scrollmenu {
   height: 50px;
   overflow: auto;
   white-space: nowrap;
-  background-color: #ff86e1;
+  
+  
 }
 
 header.scrollmenu a {
-  width: 420px;
-  background-color: #ff86e1;
+  width: 400px;
+  background-color: #ff0000ba;
   display: flex;
   color: rgb(10, 10, 10);
   text-align: center;
   padding: 10px;
   text-decoration: none;
+  color: pink;
+  border: #000000 solid 1px;
   
   
 }
 
 header.scrollmenu a:hover {
   background-color: #777;
+}
+
+.main_tittle{
+  text-align: center;
+  background-color: #ff86e1;
 }
