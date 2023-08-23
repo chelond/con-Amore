@@ -32,8 +32,8 @@
                 <a href="#blog">Букеты из клубники</a>
                 <a href="#tools">Букеты из конфет</a>  
               </div>
-            <div class="inner">
-                <div class="item">
+            <div class="inner" id="inner">
+                <div class="item" >
                     <img src="./Клубника в молочном шоколаде.png" alt="" class="img">
                     <button class="btn" id="btn1">Добавить</button>
                 </div>
@@ -60,17 +60,27 @@
                     <Span>1 290 Руб</Span>
                     <button class="btn" id="btn4">Добавить</button>
                 </div> 
-            </div>
+                <div class="item">
+                    <img src="./Клубника в молочном шоколаде.png" alt="" class="img">
+                    <Span>1 290 Руб</Span>
+                    <button class="btn" id="btn5">Добавить</button>
+                </div>
+                <div class="item">
+                    <img src="./Клубника в молочном шоколаде.png" alt="" class="img">
+                    <Span>1 290 Руб</Span>
+                    <button class="btn" id="btn6">Добавить</button>
+                </div>
+
             <div class="buton">
-                <div class="button"><button class="btn">Корзина</button></div>
-                <div class="button"><button class="btn">Оформить</button></div>
+                <div class="button"><button class="btn" id="buy">Корзина</button></div>
+                <div class="button"><button class="btn" id="buttonform">Оформить</button></div>
             </div>
             <form id="form">
                 Имя:<br>
-                <input type="text" name="firstname" value="">
+                <input type="text" name="firstname" value="" id="firstname">
                 <br>
                 Номер телефона:<br>
-                <input type="phone" name="lastname" value="">
+                <input type="phone" name="lastname" value="" id="phone">
                 <br><br>
                 <input type="submit" value="Подтвертить">
             </form>
