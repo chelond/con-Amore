@@ -5,12 +5,17 @@
   
 }
 
+header{
+  display: flex;
+  height: 20px;
+  width: 420px;
+}
+
+
 .conteiner{
   display: flex;
   width: 420px;
-  
-  
- 
+  background-color: #990021;
 }
 
 .position_tovar{
@@ -18,13 +23,23 @@
   flex-direction: column;
   margin-left: 20px;
   margin: auto;
+  background-color: #FE3F44;
+  border-radius: 100%;
+  
 }
 
 
 .img{
-  border-radius: 100%;
+  border-radius: 10%;
   width: 50px;
   margin: auto;
+  background-color: #FE3F44;
+}
+
+
+span{
+  background-color: #FE3F44;
+
 }
 
 
@@ -33,4 +48,31 @@ div.title{
   top: 50%;
   text-align: center;
   margin: auto;
+  background-color: #FE3F44;
+}
+
+.btn{
+  background-color: #4DDE00;
+}
+
+
+header.scrollmenu {
+  height: 50px;
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+header.scrollmenu a {
+  width: 420px;
+  display: flex;
+  color: rgb(10, 10, 10);
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  
+}
+
+header.scrollmenu a:hover {
+  background-color: #777;
 }
