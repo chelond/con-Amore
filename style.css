@@ -15,7 +15,7 @@ header{
 .conteiner{
   display: flex;
   width: 420px;
-  background-color: #990021;
+  background-color: #ff86e1;
 }
 
 .position_tovar{
@@ -23,7 +23,7 @@ header{
   flex-direction: column;
   margin-left: 20px;
   margin: auto;
-  background-color: #FE3F44;
+  background-color: #ff86e1;
   border-radius: 100%;
   
 }
@@ -31,14 +31,15 @@ header{
 
 .img{
   border-radius: 10%;
-  width: 50px;
+  width: 75px;
   margin: auto;
-  background-color: #FE3F44;
+  background-color: #ff86e1;
 }
 
 
 span{
-  background-color: #FE3F44;
+  background-color: #ff86e1;
+  width: 100px;
 
 }
 
@@ -47,29 +48,34 @@ div.title{
   width: 75px;
   top: 50%;
   text-align: center;
-  margin: auto;
-  background-color: #FE3F44;
+  background-color: #ff86e1;
+  width: 100px;
+  color: #ff000079;
+  font-family: 'Satisfy', cursive;
 }
 
 .btn{
   background-color: #4DDE00;
+  width: 100px;
 }
 
 
 header.scrollmenu {
   height: 50px;
-  background-color: #333;
   overflow: auto;
   white-space: nowrap;
+  background-color: #ff86e1;
 }
 
 header.scrollmenu a {
   width: 420px;
+  background-color: #ff86e1;
   display: flex;
   color: rgb(10, 10, 10);
   text-align: center;
   padding: 10px;
   text-decoration: none;
+  
   
 }
 
