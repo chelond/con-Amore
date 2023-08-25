@@ -6,85 +6,16 @@ body {
 	background: var(--tg-theme-bg-color);
 }
 
-
-form{
-  text-align: center;
-  display: none;
-  
-}
-.container {
-  max-height: max-content;
-	max-width: 390px;
-  position: relative;
+.container{
+  width: 390px;
+  height: 500px;
+  background-color: black;
 }
 
-.inner {
-	display: grid;
-  position: relative;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 200px 200px 200px;
-}
-
-.img {
-	width: 130px;
-  border-radius: 5px;
-}
-
-.buton{
-  display: inline;
-  
-}
-.button{
-  text-align: center;
-  left: 50px;
-}
-
-.item {
-	text-align: center;
-  border: solid 1px black;
-  border-radius: 10%;
-}
-
-.btn {
-	display: inline-block;
-  width: 130px;
-	padding: 10px 20px;
-	border: none;
-	background: rgb(248, 168, 24);
-	border-radius: 10px;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
-	transition: background .2s linear;
-}
-span{
-  display: inline-block;
-}
-
-.btn:hover {
-	background: lightgreen;
-}
-
-.usercard {
-	text-align: center;
-}
-
-
-div.scrollmenu {
-  overflow: auto;
-  white-space: nowrap;
-  border: solid 1px black;
-  border-radius: 10%;
-}
-
-div.scrollmenu a {
-  display: inline-block;
+.txt{
   color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
 }
 
-div.scrollmenu a:hover {
-  background-color: #777;
+.name{
+  color: white;
 }
