@@ -10,6 +10,10 @@ body {
 
 }
 
+img{
+	border-radius: 10px;
+}
+
 .container{
   width: 390px;
 
@@ -25,7 +29,7 @@ body {
 
 .text{
 	position: relative;
-	background: -webkit-linear-gradient(left, rgb(255, 110, 135), rgb(245,218,223));
+	background-color: #fbabba ;
 	border-radius: 10px;
 	border: 4px #fbabba solid;
 	width: 300px;
