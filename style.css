@@ -1,5 +1,5 @@
 *{
-	color: var(--tg-theme-text-color);
+  color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
 }
 
@@ -8,8 +8,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 18px;
-	color: var(--tg-theme-text-color);
-	background: var(--tg-theme-bg-color);
+
 }
 
 .container{
@@ -17,11 +16,28 @@ body {
   height: 500px;
   
 }
+.inner{
+	display: grid;
+	position: relative;
+	max-height: 100px;
+}
+
+
+.text{
+	background-color: lightpink;
+	border-radius: 10px;
+	width: 300px;
+	margin-bottom: 5px;
+}
 
 .txt{
   color: white;
+  text-align: center;
+  
 }
 
 .name{
   color: white;
+  padding-left: 5px;
+  
 }
