@@ -31,7 +31,7 @@ img{
 	position: relative;
 	background-color: rgb(150, 69, 100) ;
 	border-radius: 10px;
-	border: 4px #fbabba solid;
+	border: 4px rgb(150, 69, 100) solid;
 	width: 300px;
 	margin-bottom: 5px;
 
