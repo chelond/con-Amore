@@ -29,7 +29,7 @@ img{
 
 .text{
 	position: relative;
-	background-color: #fbabba ;
+	background-color: rgb(150, 69, 100) ;
 	border-radius: 10px;
 	border: 4px #fbabba solid;
 	width: 300px;
